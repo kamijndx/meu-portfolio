@@ -1,3 +1,4 @@
+
 # MeuPortfolio
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.4.
@@ -57,3 +58,19 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![Tela 1](Captura%20de%20tela%202026-09-03%20211522.png)
+
+![Tela 2](Captura%20de%20tela%202026-09-03%20211624.png)
+
+![Tela 3](Captura%20de%20tela%202026-09-03%20211636.png)
+
+
+
+Ferramentas Utilizadas
+Figma (prototipação)
+IA CLAUDE (apoio na organização das ideias e documentação)
+Autoria
+Kamilly Alessandra da Costa Ferreira
+E-mail: KAMILLY.A.FERREIRA@ALUNO.SENAI.BR
+LINK FIGMA:https://www.figma.com/design/W4qxdpW9N3riWhlnhpsmWF/Untitled?node-id=0-1&t=U27RlGVlXNPlDhuE-1
+
