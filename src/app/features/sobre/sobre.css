@@ -1,0 +1,73 @@
+.sobre {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2.5rem;
+  align-items: start;
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.sobre__avatar-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.sobre__avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #BF4F4F;
+  box-shadow: 0 8px 20px rgba(191, 79, 79, 0.25);
+}
+
+.sobre__nome {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1e1e2f;
+  margin-bottom: 1rem;
+}
+
+.sobre__bio {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #4a4a5a;
+  margin-bottom: 1.5rem;
+}
+
+.sobre__contato {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.sobre__link-social {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: #fbeaea;
+  color: #1e1e2f;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.sobre__link-social:hover {
+  background-color: #BF4F4F;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+  .sobre {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .sobre__contato { justify-content: center; }
+}

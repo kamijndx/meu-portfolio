@@ -1,0 +1,61 @@
+.secao {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.secao__titulo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1e1e2f;
+  margin-bottom: 1.5rem;
+}
+
+.secao__subtitulo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #BF4F4F;
+}
+
+.secao__subtitulo2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1e1e2f;
+  margin: 2rem 0 1rem;
+}
+
+.secao__item {
+  margin-bottom: 1.5rem;
+}
+
+.secao__descricao {
+  color: #4a4a5a;
+  line-height: 1.6;
+}
+
+.secao__citacao {
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4a4a5a;
+  border-left: 4px solid #BF4F4F;
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.secao__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.tag {
+  background-color: #fbeaea;
+  color: #1e1e2f;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
